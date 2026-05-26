@@ -20,17 +20,6 @@ export default function HeroSection() {
         <div className="pointer-events-none absolute bottom-16 right-0 h-64 w-64 rounded-full bg-coral/10 blur-3xl" />
 
         <div className="relative z-10 max-w-xl">
-          {/* Eyebrow with pulsing live-dot */}
-          <div className="inline-flex items-center gap-2.5 rounded-full border border-brand-300/30 bg-brand-500/20 px-4 py-1.5">
-            <span className="relative flex h-2 w-2 shrink-0">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-300 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-400" />
-            </span>
-            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-300">
-              AI Research · Statistics · Public Impact
-            </span>
-          </div>
-
           <h1 className="mt-7 text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-[5.5rem] lg:leading-[1.06]">
             Theodore<br />
             <span className="bg-gradient-to-r from-white to-brand-300 bg-clip-text text-transparent">
