@@ -22,6 +22,16 @@ const config: Config = {
       },
       boxShadow: {
         soft: "0 24px 80px rgba(16, 25, 70, 0.16)",
+        glow: "0 8px 32px rgba(53, 71, 200, 0.25)",
+      },
+      animation: {
+        "fade-up": "fadeUp 0.6s ease-out both",
+      },
+      keyframes: {
+        fadeUp: {
+          from: { opacity: "0", transform: "translateY(20px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
       },
     },
   },

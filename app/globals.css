@@ -16,9 +16,16 @@ body {
 }
 
 ::selection {
-  @apply bg-coral text-white;
+  @apply bg-brand-500 text-white;
 }
 
 a {
   @apply text-brand-700 transition hover:text-coral;
 }
+
+*:focus-visible {
+  outline: 2px solid #3547c8;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
