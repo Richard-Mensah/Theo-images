@@ -14,10 +14,10 @@ export default function ResearchSection() {
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-300/30 bg-brand-500/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.22em] text-brand-300">
             Research thesis
           </span>
-          <h2 className="mt-5 text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="mt-5 text-2xl font-bold tracking-tight sm:text-3xl sm:text-4xl">
             KALMNav AI: emergency navigation when GPS goes down.
           </h2>
-          <p className="mt-5 text-base leading-8 text-white/70">
+          <p className="mt-5 text-base leading-7 text-white/70 sm:leading-8">
             Theodore is developing an AI-enhanced emergency navigation system designed to maintain positioning
             accuracy during GPS downtime. The work contributes to disaster response, autonomous systems, and
             robust AI models that remain reliable in changing environments.

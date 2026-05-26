@@ -21,7 +21,7 @@ export default function ImpactSection() {
     <section className="bg-white py-16 sm:py-20">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:px-10">
         {/* Image — face clearly at top */}
-        <div className="group relative min-h-[420px] overflow-hidden rounded-sm shadow-soft">
+        <div className="group relative min-h-[260px] overflow-hidden rounded-sm shadow-soft sm:min-h-[340px] lg:min-h-[420px]">
           <Image
             src="/images/theodore-bangor-room.jpg"
             alt="Theodore Aware at Bangor University"
@@ -42,7 +42,7 @@ export default function ImpactSection() {
             {EDUCATION.map((edu) => (
               <article
                 key={edu.institution}
-                className="relative overflow-hidden rounded-sm border border-brand-100 bg-paper p-5 shadow-soft transition hover:-translate-y-0.5 hover:border-brand-300"
+                className="relative overflow-hidden rounded-sm border border-brand-100 bg-paper p-4 shadow-soft transition hover:-translate-y-0.5 hover:border-brand-300 sm:p-5"
               >
                 <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-500 to-brand-300" />
                 <p className="text-2xl">{edu.flag}</p>

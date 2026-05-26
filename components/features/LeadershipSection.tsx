@@ -41,7 +41,7 @@ export default function LeadershipSection() {
           </div>
 
           {/* Certifications */}
-          <div className="rounded-sm bg-white p-5 shadow-soft">
+          <div className="rounded-sm bg-white p-4 shadow-soft sm:p-5">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-coral">Training &amp; Certifications</p>
             <div className="mt-3 flex flex-wrap gap-1.5">
               {CERTIFICATIONS.map((cert) => (
@@ -56,7 +56,7 @@ export default function LeadershipSection() {
           </div>
 
           {/* Awards */}
-          <div className="rounded-sm bg-white p-5 shadow-soft">
+          <div className="rounded-sm bg-white p-4 shadow-soft sm:p-5">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-coral">Recognition</p>
             <div className="mt-3 space-y-2">
               {AWARDS.map((award) => (

@@ -10,10 +10,10 @@ export default function StatsSection() {
         {IMPACT_STATS.map((item) => (
           <div
             key={item.label}
-            className="group rounded-sm border border-white/15 bg-white/10 p-6 backdrop-blur-sm transition-all duration-200 hover:bg-white/15 hover:border-white/30"
+            className="group rounded-sm border border-white/15 bg-white/10 p-4 backdrop-blur-sm transition-all duration-200 hover:bg-white/15 hover:border-white/30 sm:p-6"
           >
             <div className="mb-3 h-0.5 w-10 bg-coral transition-all duration-300 group-hover:w-16" />
-            <p className="text-5xl font-bold tracking-tight">{item.value}</p>
+            <p className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">{item.value}</p>
             <p className="mt-3 text-sm leading-6 text-white/75">{item.label}</p>
           </div>
         ))}

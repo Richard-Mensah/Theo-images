@@ -29,3 +29,8 @@ a {
   border-radius: 2px;
 }
 
+.dot-grid {
+  background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+

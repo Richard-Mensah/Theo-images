@@ -9,7 +9,7 @@ export default function AboutSection() {
     <section id="about" className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         {/* Portrait — face clearly at top */}
-        <div className="group relative min-h-[480px] overflow-hidden rounded-sm shadow-soft">
+        <div className="group relative min-h-[300px] overflow-hidden rounded-sm shadow-soft sm:min-h-[400px] lg:min-h-[480px]">
           <Image
             src="/images/theodore-common-room.jpg"
             alt="Theodore Aware in a university common room"
