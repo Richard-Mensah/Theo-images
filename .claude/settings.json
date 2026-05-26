@@ -4,7 +4,16 @@
       "mcp__claude_ai_Vercel__deploy_to_vercel",
       "Bash(vercel deploy *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(powershell -Command \"Get-Content 'package-lock.json' | Select-String -Pattern '\\\\\"node_modules/next\\\\\"' -Context 0,5 | Select-Object -First 15\")",
+      "Bash(powershell -Command \"Get-Content 'package-lock.json' | Select-String -Pattern 'node_modules/next' -Context 0,3\")",
+      "Bash(powershell -Command \"Test-Path '.github' ; Test-Path 'vercel.json' ; Test-Path '.npmrc' ; Test-Path '.vercel'\")",
+      "Bash(powershell -Command \"Get-Content 'package-lock.json' | Select-String -Pattern '\\\\\"resolved\\\\\".*next' | Select-Object -First 5\")",
+      "Bash(powershell -Command \"Get-Content 'package-lock.json' | Select-String -Pattern '\\\\\"resolved\\\\\".*next' | Select-Object -Last 5\")",
+      "Bash(powershell -Command \"Get-Content 'package-lock.json' | Measure-Object -Line\")",
+      "Bash(powershell -Command \"node --version 2>&1 ; npm --version 2>&1\")",
+      "Bash(npm install *)",
+      "Bash(git add *)"
     ]
   }
 }
