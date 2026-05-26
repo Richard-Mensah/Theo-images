@@ -13,7 +13,14 @@
       "Bash(powershell -Command \"Get-Content 'package-lock.json' | Measure-Object -Line\")",
       "Bash(powershell -Command \"node --version 2>&1 ; npm --version 2>&1\")",
       "Bash(npm install *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "mcp__claude_ai_Vercel__list_teams",
+      "Bash(npm audit *)",
+      "Bash(node -e \"const l=require\\('./package-lock.json'\\); console.log\\('next resolved:', l.packages['node_modules/next'].version\\)\")",
+      "mcp__claude_ai_Vercel__list_projects",
+      "mcp__claude_ai_Vercel__list_deployments",
+      "Bash(git fetch *)",
+      "mcp__claude_ai_Vercel__get_deployment_build_logs"
     ]
   }
 }
